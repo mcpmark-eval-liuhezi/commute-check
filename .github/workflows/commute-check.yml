@@ -1,0 +1,34 @@
+# Weights & Biases follow-up note:
+# Question asked of the W&B support bot: "How do I log a metric to Weights & Biases
+# from inside a GitHub Actions job?"
+# The support bot was unreachable at the time of writing (the wandbot API repeatedly
+# returned "404 Client Error: Not Found"). We could not capture an answer, so no guidance
+# is recorded here yet — to be followed up and filled in once the bot is reachable.
+
+name: Commute Check
+
+on:
+  workflow_dispatch:
+    inputs:
+      venue:
+        description: 'Cafe / venue chosen for this coffee walk'
+        required: true
+        type: string
+      distance_km:
+        description: 'Walking distance from the office in kilometres'
+        required: true
+        type: string
+      duration_min:
+        description: 'Walking duration in minutes'
+        required: true
+        type: string
+
+jobs:
+  log-commute:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Echo the commute entry
+        run: |
+          echo "venue=${{ inputs.venue }}"
+          echo "distance_km=${{ inputs.distance_km }}"
+          echo "duration_min=${{ inputs.duration_min }}"
