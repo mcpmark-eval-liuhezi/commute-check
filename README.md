@@ -11,4 +11,4 @@ the walking distance in km, and the walking duration in minutes for that week.
 
 | Entry | Venue | Walking distance | Duration |
 | ----- | ----- | --------------- | -------- |
-| This week | Jamaica Blue Coffee Shop | 2.0 km | 35 mins |
+| This week | COSTA COFFEE (Wangfujing) | 2.3 km | 39 mins |
