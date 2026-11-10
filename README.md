@@ -11,5 +11,4 @@ the walking distance in km, and the walking duration in minutes for that week.
 
 | Entry | Venue | Walking distance | Duration |
 | ----- | ----- | --------------- | -------- |
-| This week | FRENCH BAKERY&CAFE | 1.1 km | 18 mins |
-| Previous | COSTA COFFEE (Wangfujing) | 2.3 km | 39 mins |
+| This week | FRENCH BAKERY&CAFE | 1.0 km | 15 mins |
