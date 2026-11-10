@@ -8,4 +8,4 @@ Since we don't want to run any server, the run history of the manually-triggered
 
 | Entry | Venue | Walking distance | Duration |
 | ----- | ----- | --------------- | -------- |
-| This week | Fusan | 1.2 km | 19 mins |
+| This week | Luckin Coffee (SK大厦, Chaoyang) | 0.8 km | 13 mins |
